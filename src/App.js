@@ -1,16 +1,20 @@
 import React from "react";
+import NavBar from "./components/Navbar";
 
 const App = () => {
   return(
     <div>
-      <div className="header">
-      <h1>Let 'em cook</h1>
-      </div>
-      <div className="text">
-        <p>Welcome to let em cook. Now wait for 2000000 days for this project to complete</p>
+      <NavBar />
+      <div className="container items-center h-96 p-10 md:p-12 lg:p-14 text-custom-black dark:text-light-grey">
+        <h2 className="text-4xl">Try these Recipes</h2>
+        <br/>
+        <ul>
+          <li>Recipe 1</li>
+          <li>Recipe 2</li>
+          <li>Recipe 3</li>
+        </ul>
       </div>
     </div>
-    
   )
 };
 
