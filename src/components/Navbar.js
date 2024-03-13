@@ -4,7 +4,7 @@ const NavBar = () => {
   return(
     <nav className="bg-white border-gray-800 dark:border-dark-gray dark:bg-custom-black p-2" >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex space-x-3">
+        <a href="/" className="flex space-x-3">
           <span className="self-center text-2xl dark:text-slate-100">Let 'em Cook</span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -20,13 +20,13 @@ const NavBar = () => {
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-custom-black md:dark:bg-custom-black dark:border-slate-100">
             <li>
-              <a href="#" className="button text-custom-black dark:text-white rounded md:bg-transparent md:text-slate-100 md:p-0 md:dark:text-slate-100" aria-current="page">Cuisines</a>
+              <a href="https://google.com/" className="button text-custom-black dark:text-white rounded md:bg-transparent md:text-slate-100 md:p-0 md:dark:text-slate-100" aria-current="page">Cuisines</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-custom-black dark:text-white rounded md:bg-transparent md:text-slate-100 md:p-0 md:dark:text-slate-100" aria-current="page">Search</a>
+              <a href="https://amazon.com" className="block py-2 px-3 text-custom-black dark:text-white rounded md:bg-transparent md:text-slate-100 md:p-0 md:dark:text-slate-100" aria-current="page">Search</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-custom-black dark:text-white rounded md:bg-transparent md:text-slate-100 md:p-0 md:dark:text-slate-100" aria-current="page">Favorites</a>
+              <a href="https://apple.com" className="block py-2 px-3 text-custom-black dark:text-white rounded md:bg-transparent md:text-slate-100 md:p-0 md:dark:text-slate-100" aria-current="page">Favorites</a>
             </li>
           </ul>
         </div>
